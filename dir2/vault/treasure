@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ $1 == "055" ]]; then
+  echo "Yes, the password is 055"
+else
+  echo "Please type the correct password (3 digits)"
+fi
+

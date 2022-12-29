@@ -1,0 +1,9 @@
+In this assignment we're going to create a bash script that serves the role of a linter.
+
+1. We want it to replace variable number of spaces into a single tab using command parameter -s.
+2. Any whitespace at the end of each line should be removed.
+3. Multiple empty lines should collapse into a single empty line.
+4. Strings surrounded by double quotes ie ("$string") should be replaced by single quotes ('$string').
+5. Change kebab-case variables into camelCase for variables and PascalCase for function names.
+6. Linter should give you a warning when it spots reserver word 'var' and inform you on which line and at which character it is placed.
+
