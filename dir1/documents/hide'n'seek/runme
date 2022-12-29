@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+chmod +x ./cantfindit/2/data
+chmod +x ./orhere/9/data
+chmod +x ./orhere/2/data
+chmod +x ./whereisit/7/data 
