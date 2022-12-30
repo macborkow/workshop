@@ -1,0 +1,46 @@
+Yank/delete lines
+
+Apply regex to lines
+
+Increment/Decrement using #
+
+Comment out blocks
+
+Remove trailing whitespace from file/block
+
+Remove first N-characters
+
+Delete all lines N-character long (or except N-char long)
+
+Replace paths using #
+
+Write the file as root
+
+Diff the file on disk with the buffer
+
+Backup of the file
+
+Sort lines
+
+Sort a block
+
+3. hey
+1. hello
+2. heyey
+
+delete duplicated lines
+
+hello
+hello
+hey
+hey
+heyey
+hey
+hey
+heyey
+heyey
+
+join all lines
+
+
+
