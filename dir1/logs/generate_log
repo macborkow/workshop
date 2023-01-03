@@ -1,0 +1,4 @@
+#!/bin/bash
+
+last_line="$(tail -n 1 system.log)"
+echo $((${last_line:0:1}+1)). Event $RANDOM happened. >> system.log
