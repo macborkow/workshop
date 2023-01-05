@@ -20,6 +20,5 @@ cd ..
 rm -rf OpenVi
 apk add shadow
 apk add bash
-apk add ansible-base-doc
 apk add ansible-core-doc
 apk add ansible-core mandoc man-pages mandoc-apropos less less-doc
