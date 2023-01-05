@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/ash
 cat repositories >> /etc/apk/repositories
 apk -U upgrade
 apk add terminus-font
@@ -18,4 +18,6 @@ mkdir /home/user/.bin
 cp bin/* /home/user/.bin
 cd ..
 rm -rf OpenVi
-reboot
+apk add shadow
+apk add bash
+chsh && reboot
