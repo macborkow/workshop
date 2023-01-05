@@ -20,5 +20,3 @@ cd ..
 rm -rf OpenVi
 apk add shadow
 apk add bash
-su user
-chsh && reboot
