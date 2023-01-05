@@ -1,0 +1,5 @@
+create a script that accepts the parameters -f (first name) and -l (last name) and then outputs 'Hello Firstname Lastname'
+
+make sure that the first name and last name are displayed with only the first letter as capital, the rest should be lowercase
+
+add error handling

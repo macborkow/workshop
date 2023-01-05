@@ -1,0 +1,6 @@
+1. In data1, find only words that have the letter 'a' inside of them
+2. In the log1 file find only lines that have the IP 192.168.0.24 inside of them
+3. Count the total number of words and then amount of words that have the letter 't' inside of them
+4. Find only lines with exclusively capital letters in data2
+5. In data3 find only words starting with a
+6. Expand on 4th exercise and find only words starting with a and ending with l
