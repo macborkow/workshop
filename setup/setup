@@ -1,0 +1,21 @@
+#!/bin/bash
+cat repositories >> /etc/apk/repositories
+apk -U upgrade
+apk add terminus-font
+echo consolefont="ter-124n.psf.gz" > /etc/conf.d/consolefont
+rc-update add consolefont boot
+apk add linux-firmware-none
+apk add linux-lts
+apk del linux-virt
+sed -i '/APPEND/ s/$/ vga=792/' /boot/extlinux.conf
+touch /home/user/.profile
+cat PS1 >> /home/user/.profile
+apk add build-base ncurses-dev
+git clone https://github.com/johnsonjh/OpenVi
+cd OpenVi
+make
+mkdir /home/user/.bin
+cp bin/* /home/user/.bin
+cd ..
+rm -rf OpenVi
+reboot
